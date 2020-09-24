@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Profile page</title>
+        <link href="./styles.css" rel="stylesheet">
+        <script src='./images.js' type='text/javascript'></script>
+    </head>
+<body onload="loadPictures()">
+    <div class="profile-header">
+        <div><table><tr>
+            <td><div class="profile-img">
+            <img class="profile-img" src="https://instagram.fhfa2-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/90742601_594937597765876_7561698487392474222_n.jpg?_nc_ht=instagram.fhfa2-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=220g4vDsikwAX-AtU54&oh=e5a63bbece484e3e5edf0e89934d403c&oe=5F255F4E" alt=""/>
+            </div>
+            </td>
+        <td>
+            <div class="user">
+            <h1 class="user-name">mayadahan</h1>
+            </div>
+        </td></tr></table>
+    </div>
+        
+    <div class="introduction"><p>Welcome to my profile! Add pictures to my gallery as you wish!</p></div>
+    </div>
+    <div class="container">
+        <h1>Add new Image</h1>
+        <span>URL: <input type="url" id="img_input" value="Enter Image URL"required/></span>
+        <button class="add-img" onclick="addPicture()" value="Add Picture">Add</button>
+        <div id="gallery" class="gallery">
+
+        </div>
+        <div id="loader-parent">
+
+            <div class="loader" id="loader"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://www.facebook.com/dahanmaya/"><img style="margin-top: 10px;" Facebook" height="32" src="https://marketing-image-production.s3.amazonaws.com/uploads/ff9976df4a238185e8b04c049167edb67da4114ae06d92f1025ceaf6ba0fce7c90717e0cfefa7978ea756664c3e8ed1f55aabf17204450aa34bf004f02cf4eac.png" title="Facebook" width="32"></a>
+                    </td>
+                    <td>
+                        <a href="https://www.instagram.com/mayadahan/"><img  style="margin-top: 10px;" alt="Instagram" height="35" src="https://image.flaticon.com/icons/png/512/87/87390.png" title="Instagram" width="35"></a>
+                    </td>
+                </tr>    
+            </table>
+            <p style="margin: 0px; "><span style="color: #0F0E0E; font-size: 14px;">
+                Copyright &copy; 2020 Maya Dahan, All rights reserved.
+                </span></p>
+        </center>                                                                                                                                    
+    </div>
+
+</body>
+</html>

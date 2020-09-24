@@ -1,0 +1,19 @@
+{
+  "name": "q1",
+  "version": "1.0.0",
+  "description": "  \"scripts\": {",
+  "main": "readWrite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayadahan/Ex2_MayaDahan.git"
+  },
+  "author": "Maya Dahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayadahan/Ex2_MayaDahan/issues"
+  },
+  "homepage": "https://github.com/mayadahan/Ex2_MayaDahan#readme"
+}

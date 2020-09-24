@@ -1,0 +1,23 @@
+{
+  "name": "q2",
+  "version": "1.0.0",
+  "description": " allows its users to start an express app which returns a static HTML page utilizing external CSS and JS files and at least 2 images",
+  "main": "statExpress.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayadahan/Ex2_MayaDahan.git"
+  },
+  "author": "Maya Dahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayadahan/Ex2_MayaDahan/issues"
+  },
+  "homepage": "https://github.com/mayadahan/Ex2_MayaDahan#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
